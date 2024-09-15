@@ -518,8 +518,244 @@ const questions = [
         id: 103,
         text: 'Où a eu lieu le débarquement des alliés durant la 2nd guerre mondiale?',
         answer: 'En Normandie'
+    },
+    {
+        id: 104,
+        text: 'Quel sont les valeurs (ou la devise) de la république Française?',
+        answer: 'Liberté, égalité, fraternité'
+    },
+    {
+        id: 105,
+        text: 'Si on devait ajouter une valeur quelle sera-t-elle selon vous?',
+        answer: 'La laïcité'
+    },
+    {
+        id: 106,
+        text: 'Qu\'est-ce que la laïcité?',
+        answer: 'Garantit la bilerté de conscience. La liberté de manifester ses croyances dans les limites du respect de l\'ordre public. Elle implique la neutralité de l\'Etat. Les affaires publics et religieuse sont séparées.'
+    },
+    {
+        id: 107,
+        text: 'Qu\'est-ce que pour la démocratie?',
+        answer: 'Elle représente une système politique dans lequel le peuple est souverain, c\'est un régime politique dans lequel tous les citoyens participent aux décisions publics et à la vie politique du pays.'
+    },
+    {
+        id: 108,
+        text: 'Quelles sont les formes de la démocratie?',
+        answer: 'Directe, participative et représentative'
+    },
+    {
+        id: 109,
+        text: 'Etes-vous d\'accord avec la régime démocratique?',
+        answer: 'Absolument'
+    },
+    {
+        id: 110,
+        text: 'Quelles formes libertés sont garanties en démocratie?',
+        answer: 'La liberté de pensé, la liberté de coyance, la liberté d\'expression, la liberté de se réunir'
+    },
+    {
+        id: 111,
+        text: 'Pensez-vous que la liberté d\'expression est abolue?',
+        answer: 'Non, la liberté est garantie mais elle n\'est pas absolue. La liberté des uns s\'arrête là où commence celles des autres.'
+    },
+    {
+        id: 112,
+        text: 'Quels sont les droits et devoirs du citoyen Français?',
+        answer: 'Le droit de vote, accès à l\'emploi public, le droit de circuler, de s\'exprimer, de croire ou de ne pas croire à une religion, le droit à la propriété, de créer une association. Il faut respecter les lois, payers les taxes et les impôts, des cotisations (sécurité sociale) et peuvent être appelé dans l\'armée en cas de guerre'
+    },
+    {
+        id: 113,
+        text: 'Quelles sont les symboles de la Rébuplique Française?',
+        answer: 'La Marianne, le drapeau, la Marseillaise, la devise, le coq, la fleur de lys, le bonnet phrygien, le 14 juillet'
+    },
+    {
+        id: 114,
+        text: 'Quelles sot les couleurs du drapeau Français?',
+        answer: 'Bleu, blanc, rouge. '
+    },
+    {
+        id: 115,
+        text: 'Que représentent les couleurs du drapeau Français?',
+        answer: 'Le bleu représente la couleur de Paris, le blanc la couleur des rois, le rouge la couleur de Paris en référence au sang versé pour la libération du peuple.'
+    },
+    {
+        id: 116,
+        text: 'Qui est Marianne?',
+        answer: 'Une figure symbolique de la république Française. Une femme coiffée dans le bonnet phrygien, elle représente la France et ses valeurs'
+    },
+    {
+        id: 117,
+        text: 'Qui est aujourd\'hui le président de la république?',
+        answer: 'Emmanuel Macron'
+    },
+    {
+        id: 118,
+        text: 'Qui était le président de la république avant le président actuel?',
+        answer: 'François Holland'
+    },
+    {
+        id: 119,
+        text: 'Qui est le premier ministre actuel?',
+        answer: 'Michel Barnier'
+    },
+    {
+        id: 120,
+        text: 'Qui était le premier ministre avant le premier ministr actuel?',
+        answer: 'Gabriel Attal'
+    },
+    {
+        id: 121,
+        text: 'Dans quel république sommes-nous aujourd\'hui?',
+        answer: 'La 5ème république'
+    },
+    {
+        id: 122,
+        text: 'Quand sont les dates des précédentes républiques?',
+        answer: '1er: 1792 - 1804, 2ème: 1848 - 1852, 3ème: 1870 - 1940, 4ème: 1946 - 1958, 5ème: 1958 - '
+    },
+    {
+        id: 123,
+        text: 'Qui a instauré la cinquième république?',
+        answer: 'Charles de Gaulle'
+    },
+    {
+        id: 124,
+        text: 'Où se trouve le siège de la présidence de la république?',
+        answer: 'A l\'Elysée'
+    },
+    {
+        id: 125,
+        text: 'Citez dans l\'ordre les présidents de la cinquième république?',
+        answer: 'Charles de Gaulles, Georges Pompidou, Valéry Giscard d\'Estaing, François Mitterand, Jacques Chirac, Nicolas Sarkozy, François Holland, Emmanuel Macron'
+    },
+    {
+        id: 126,
+        text: 'Citez 3 anciens premier ministres Français de la cinquième république?',
+        answer: 'Edouard Philippe, Elisabeth Borne, François Fillon'
+    },
+    {
+        id: 127,
+        text: 'Citez 3 ministres du gouvernement actuel',
+        answer: 'Bruno Le Maire (économie, finances), Gérald Darmanin: minstre de l\'intérieurn Eric Dupont-Moretti: ministre de la Justice'
+    },
+    {
+        id: 128,
+        text: 'Pour combien de temps est élu le président de la république?',
+        answer: '5 ans'
+    },
+    {
+        id: 129,
+        text: 'Par quel scrutin et pour combien de mandats peut être élu le président de la république?',
+        answer: 'Le mandat est renouvelable une seule fois pour une duré de 5 ans. Il est élu au suffrage universel direct par un scrutin à la majorité absolue à deux tour'
+    },
+    {
+        id: 130,
+        text: 'Qui a le droit de voter aux élections?',
+        answer: 'Tout les citoyens français majeurs'
+    },
+    {
+        id: 131,
+        text: 'Quel est l\'âge de ma majorité en France?',
+        answer: '18 ans'
+    },
+    {
+        id: 132,
+        text: 'Qu\'est-ce que le parlement?',
+        answer: 'Une assemblé élu par le peuple qui assure la représentation du peuple. Elle est composé de deux chambre, la chambre haute (les sièges des sénateurs) et la chambre basse (les sièges des députés) '
+    },
+    {
+        id: 133,
+        text: 'Quel est le rôle exacte du parlement?',
+        answer: 'Il revoit, corrige et vote les lois. Il détient le pouvoir législative'
+    },
+    {
+        id: 134,
+        text: 'Citez les différentes institutions politiques en France?',
+        answer: 'Le pouvoir exécutive, le pouvoir législative, le pouvoir judiciaire (exercé par les juges et les magistrats)'
+    },
+    {
+        id: 135,
+        text: 'Qu\'est-ce que le pouvoir exécutive et quelle est son rôle?',
+        answer: 'Le pouvoir incarné par le président de la république et par son gouvernement. Son rôle est de mettre en ouvre les lois et conduire la politique national. Il peut dédicter les règlements, il dispose de l\'administration et de la force armée.'
+    },
+    {
+        id: 136,
+        text: 'Qu\'est-ce que le pouvoir législatif et quelle est son rôle?',
+        answer: 'Il est exercé par les deux chambres du parlement, le Sénat et l\'Assemblé National. Il est chargé de la rédaction et de l\'adoption des lois et du contrôl de l\'exécutive'
+    },
+    {
+        id: 137,
+        text: 'Qu\'est-ce que le pouvoir judiciare et quelle est son rôle?',
+        answer: 'Son rôle est de contrôler l\'appication de la loi et sanctionner son non-respect'
+    },
+    {
+        id: 138,
+        text: 'Comment sont élus les députés?',
+        answer: 'Au suffrage universel direct uninominal à deux tours'
+    },
+    {
+        id: 139,
+        text: 'Pour combien d\'années sont élus les députés?',
+        answer: '5 ans'
+    },
+    {
+        id: 140,
+        text: 'Où se trouve le siège de l\'Assemblé Nationale?',
+        answer: 'Au palais Bourbon dans le 7e arrondissement de Paris'
+    },
+    {
+        id: 141,
+        text: 'Qui est le député (ou la député) de votre département?',
+        answer: 'Bordeaux: Thomas Cazenave (Ensemble !), Saint-André: Edwige Diaz (Rassemblement Nationa)'
+    },
+    {
+        id: 142,
+        text: 'Qui constitue le gouvernement?',
+        answer: 'Le premier ministre, les ministres, les ministres délégués, les secrétaires d\'Etat'
+    },
+    {
+        id: 143,
+        text: 'Qui est le président de l\'Assemblé National?',
+        answer: 'Yaël Braun-Pivet depuis 2022'
+    },
+    {
+        id: 144,
+        text: 'Combien d\'années dure le mandat du président de l\'Assemblé National??',
+        answer: '5 ans'
+    },
+    {
+        id: 145,
+        text: 'Qu\'est-ce que la chambre basse?',
+        answer: 'L\'Assemblé National'
+    },
+    {
+        id: 146,
+        text: 'Qu\'est-ce que la chambre haute?',
+        answer: 'Le sénat'
+    },
+    {
+        id: 147,
+        text: 'Qu\'est-ce que le sénat?',
+        answer: 'Il constitue la chambre haute du parlement français. Les sénateurs détiennent le pouvoir législatives avec l\'Assemblé National'
+    },
+    {
+        id: 148,
+        text: 'Comment sont élus les sénateurs?',
+        answer: 'Au suffrage universel indirect par un collège électoral composé de grands électeurs (députés, conseillers régionaus, conseillers départementaux, délégués des conseils municipaux)'
+    },
+    {
+        id: 149,
+        text: 'Pour combien d\'années sont élus les sénateurs?',
+        answer: '6 ans'
+    },
+    {
+        id: 150,
+        text: 'Quelle est la différence entre un député et un sénateur?',
+        answer: 'Le rôle du sénateur est d\'examiner très en détail et voter les lois et contrôler les actions du gouvernement et contrairement aux députés il défend aussi les interêts des communes, les départements et des régions (les collectivités territoriales). Son rôle est plus modérateur. Les députés ont un rôle central dans l\'élaboration des lois. L\'Assemblée nationale a le dernier mot en cas de désaccord avec le Sénat sur un projet de loi.'
     }
 ]
+
 const questionIds = questions.map(question => question.id)
 questionCount.innerHTML = questionIds.length.toString()
 let selectedQuestion;
