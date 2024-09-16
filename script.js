@@ -776,7 +776,7 @@ const questions = [
     },
     {
         id: 155,
-        text: 'Quelle est la dernière loi votée çà l\'assemblé nationale?',
+        text: 'Quelle est la dernière loi votée à l\'assemblé nationale?',
         answer: 'La dernière loi votée à l\'Assemblée nationale, en juillet 2024, concerne la prévention des ingérences étrangères en France. Cette loi vise à renforcer les dispositifs permettant de contrer les influences extérieures qui pourraient nuire aux intérêts nationaux.'
     },
     {
