@@ -242,7 +242,7 @@ const questions = [
     {
         id: 48,
         text: 'Connaissez-vous Jean Moulin? Pourquoi est-il connu?',
-        answer: ''
+        answer: 'Jean Moulin est surtout connu pour son rôle central dans la Résistance française durant la Seconde Guerre mondiale. Il a été l\'un des principaux organisateurs de la lutte contre l\'occupation allemande et le régime de Vichy, et il a œuvré à unifier les divers mouvements de résistance sous une direction commune.'
     },
     {
         id: 49,
@@ -753,6 +753,256 @@ const questions = [
         id: 150,
         text: 'Quelle est la différence entre un député et un sénateur?',
         answer: 'Le rôle du sénateur est d\'examiner très en détail et voter les lois et contrôler les actions du gouvernement et contrairement aux députés il défend aussi les interêts des communes, les départements et des régions (les collectivités territoriales). Son rôle est plus modérateur. Les députés ont un rôle central dans l\'élaboration des lois. L\'Assemblée nationale a le dernier mot en cas de désaccord avec le Sénat sur un projet de loi.'
+    },
+    {
+        id: 151,
+        text: 'Constitutionnellement qui a le pouvoir de diriger le pays en cas de décès du président de la république?',
+        answer: 'Le président du Sénat'
+    },
+    {
+        id: 152,
+        text: 'Qui est le président actuel du Sénat?',
+        answer: 'Gérard Larcher'
+    },
+    {
+        id: 153,
+        text: 'Que\'est-ce que le conseil constitutionnel?',
+        answer: 'Un institution française créé par la constitution de la 5ème république. Il se prononce sur la conformité à la constitution des lois et de certains règlements. Il veille à la régularité des élections nationales et referendum'
+    },
+    {
+        id: 154,
+        text: 'Qui est le président du conseil constitutionnel?',
+        answer: 'Laurent Fabius'
+    },
+    {
+        id: 155,
+        text: 'Quelle est la dernière loi votée çà l\'assemblé nationale?',
+        answer: 'La dernière loi votée à l\'Assemblée nationale, en juillet 2024, concerne la prévention des ingérences étrangères en France. Cette loi vise à renforcer les dispositifs permettant de contrer les influences extérieures qui pourraient nuire aux intérêts nationaux.'
+    },
+    {
+        id: 156,
+        text: 'Savez-vous ce qu\'est la cohabitation politique?',
+        answer: 'Elle désigne la coéxistance institutionnelle entre un chef de l\'Etat et un chef de gouvernement'
+    },
+    {
+        id: 157,
+        text: 'Citez un exemple de cohabitation politique en France',
+        answer: 'Chirac (RPR), Jospin (PS)'
+    },
+    {
+        id: 158,
+        text: 'Qui nomme les ministres?',
+        answer: 'Le premier ministre'
+    },
+    {
+        id: 159,
+        text: 'Qui nomme le premier ministre?',
+        answer: 'Le président de la république'
+    },
+    {
+        id: 160,
+        text: 'Où se trouve les bureaux du premier ministre?',
+        answer: 'L\'hôtel Matignon à Paris'
+    },
+    {
+        id: 161,
+        text: 'Qui est le maire de votre ville?',
+        answer: 'Céline Monseigne'
+    },
+    {
+        id: 162,
+        text: 'Qu\'est-ce que les élections municipale?',
+        answer: 'Les élections qui premettent d\'élire les membre du conseil municipal de chaque commune. Les conseillers municipaux élisent le maire et ses adjoints'
+    },
+    {
+        id: 163,
+        text: 'Quelle est l\'hymne de la France?',
+        answer: 'La Marseillaise'
+    },
+    {
+        id: 164,
+        text: 'Qui a écrit la Marseillaise?',
+        answer: 'Claude Joseph Rouget de Lisle'
+    },
+    {
+        id: 165,
+        text: 'Connaissez-vous le premier couplet de la Marseillaise?',
+        answer: 'Allons enfants de la Patrie, Le jour de gloire est arrivé ! Contre nous de la tyrannie, L\'étendard sanglant est levé, (bis) Entendez-vous dans les campagnes Mugir ces féroces soldats ? Ils viennent jusque dans vos bras, Égorger vos fils, vos compagnes !'
+    },
+    {
+        id: 166,
+        text: 'A quelle occasion la Marseillaise a été écrit?',
+        answer: '1792La France venait de déclarer la guerre à l\'Autriche, et le pays était en pleine Révolution française.  Ce chant fut d\'abord intitulé "Chant de guerre pour l\'armée du Rhin"'
+    },
+    {
+        id: 167,
+        text: 'Quelle est la monnaie actuelle de la France?',
+        answer: 'l\'Euro'
+    },
+    {
+        id: 168,
+        text: 'Quelle est la devise de l\'union européenne?',
+        answer: 'Uni dans la diversité'
+    },
+    {
+        id: 169,
+        text: 'Connaissez-vous l\'hymne de l\'union européenne?',
+        answer: 'L\'ode de la Joie de Beethoven'
+    },
+    {
+        id: 170,
+        text: 'Combien de pays compte l\'union européenne?',
+        answer: '27'
+    },
+    {
+        id: 171,
+        text: 'Pour quel intêret les pays européens rejoignent l\'union européenne?',
+        answer: 'La liberté de circuler dans l\'espace Schengen, la monnaie unique est forte, l\'union politique et financière, le partage des valeurs démocratique'
+    },
+    {
+        id: 172,
+        text: 'Où se trouve le siège du parlement Européen?',
+        answer: 'Strassbourg'
+    },
+    {
+        id: 173,
+        text: 'Où se trouve le siège de la commission Européen?',
+        answer: 'Bruxelles'
+    },
+    {
+        id: 174,
+        text: 'Quel pays détient la présidence de l\'union européen?',
+        answer: 'La Hongrie'
+    },
+    {
+        id: 175,
+        text: 'Combien d\'étoile le drapeau européen comporte-t-il?',
+        answer: '12'
+    },
+    {
+        id: 176,
+        text: 'Que symboisent ces étoiles?',
+        answer: 'Les idéuax d\'unité, de solidarité et d\'harmonie entre les peuple européen'
+    },
+    {
+        id: 177,
+        text: 'Que représente la journée du 9 mai?',
+        answer: 'La journée de l\'Europe qui représente le jour de la paie'
+    },
+    {
+        id: 178,
+        text: 'Quels sont les symbôles de l\'union européen?',
+        answer: 'La monnaie européenne, le drapeau européen, la devise de l\'Europe, l\'hymne Europén, la journée de l\'Europe'
+    },
+    {
+        id: 179,
+        text: 'Que connaissez-vous sur le traité de Rome? Et quand a-t-il eu lieu?',
+        answer: '25 mars 1957, l\'Allemagne, la Belgique, la France, l\'Italie, le Luxembourg et les Pays-Bas signent deux traités, le premier créé la Communauté économique européen, le deuxième créé la Communauté européen de l\'énergie atomique'
+    },
+    {
+        id: 180,
+        text: 'Qui est Jeanne d\'Arc?',
+        answer: 'Une jeune paysanne française qui a conduit des troupes françaises à la libératon d\'une partie d\'une territoire français durant la guerre de 100 ans'
+    },
+    {
+        id: 181,
+        text: 'Qu\'est-ce que la Loi Veil?',
+        answer: 'Le loi qui encadre l\'interruprion volontaire de la grossesse, préparé par Simone Veil, voté le 17 janvier 1975'
+    },
+    {
+        id: 182,
+        text: 'Que pensez-vous de la loi Veil?',
+        answer: 'Une mesure importante qui garantit aux femmes le droit à la liberté de disposer de son corps'
+    },
+    {
+        id: 183,
+        text: 'Que pensez-vous de la parité hommes femmes?',
+        answer: 'Les femmes et les hommes sont égaux, donc ils doivent avoir les même droits et les mêmes obligations. En France la parité est garantit par l\'article 1er de la constitution'
+    },
+    {
+        id: 184,
+        text: 'Avons-nous atteint cette parité dans tous les domaines?',
+        answer: 'Non, pas dans tous les domaines, pour l\'égalité des salaires il faudra au moins 200 ans pour l\'atteindre de  façon générale'
+    },
+    {
+        id: 185,
+        text: 'Quels seront les prochaines élections?',
+        answer: 'Les élections municipales en 2026'
+    },
+    {
+        id: 186,
+        text: 'Qui décidera de vous octroyer ou non la nationalité française?',
+        answer: 'Le ministre de l\'intérieur'
+    },
+    {
+        id: 187,
+        text: 'Quel ministre gère les relations entre l\'état et les institutions religieuses?',
+        answer: 'Le ministre de l\'intérieur'
+    },
+    {
+        id: 188,
+        text: 'Qu\'est-ce que la discrimination pour vous?',
+        answer: 'De ne pas recruter quelqu\'un à cause de son origin par exemple'
+    },
+    {
+        id: 189,
+        text: 'La discrimination est-elle légale en France?',
+        answer: 'Non'
+    },
+    {
+        id: 190,
+        text: 'En quelle années les citoyens français sont-il devenus Europénes?',
+        answer: '1992'
+    },
+    {
+        id: 191,
+        text: 'Qui a le droit d\'accéder à l\'emploi publique?',
+        answer: 'Tous les citoyens'
+    },
+    {
+        id: 192,
+        text: 'En cas de conflit armé qui pourra être appelé à défendre la partie?',
+        answer: 'Tous les citoyens de plus de 16 ans'
+    },
+    {
+        id: 193,
+        text: 'Qu\'est-ce que le système de sécurité sociale?',
+        answer: 'Il se compose d\'un ensemble d\'institution qui ont pour fonction de protégér les individus des conséquences de divers évènements ou situations généralement qualifiés de risques sociaux.'
+    },
+    {
+        id: 194,
+        text: 'Par qui est financé la sécurité sociale?',
+        answer: 'Les entreprise et les gens qui travaillent. C\'est une application de la franernité'
+    },
+    {
+        id: 195,
+        text: 'Qui finance les services publiques?',
+        answer: 'Les gens qui travaillent à travers les impôts'
+    },
+    {
+        id: 196,
+        text: 'Etes-vous obligé de payer vos impôts?',
+        answer: 'Oui'
+    },
+    {
+        id: 197,
+        text: 'Si vous obtenez la nationalité française comptez-vous vivre en France?',
+        answer: 'Oui'
+    },
+    {
+        id: 198,
+        text: 'Les citoyens sont-ils toujours satisfaits des choix du gouvernement?',
+        answer: 'Non'
+    },
+    {
+        id: 199,
+        text: 'Comment manifestent-ils leur désaccord?',
+        answer: 'En organisant des manifestations, en faisant grève ou en utilisant toute autre méthode pacifique et en accord avec la loi'
+    },
+    {
+        id: 200,
+        text: 'Citez des femmes politiques que vous connaissez?',
+        answer: 'Simone Veil, Ségolène Royal, Elisabeth Borne'
     }
 ]
 
